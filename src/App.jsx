@@ -2,6 +2,8 @@ import React from "react";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Cards from "./components/Cards";
+import ChannelPerformance from "./components/ChannelPerformance";
+import RecentActivity from "./components/RecentActivity";
 
 function App() {
   return (
@@ -13,6 +15,11 @@ function App() {
 
          <main className="p-6 space-y-6">
           <Cards />
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <ChannelPerformance/>
+            <RecentActivity />
+          </div>
          </main>
       </div>
     </div>

@@ -31,9 +31,9 @@ function Cards() {
         <div className="grid grid-cols-4 gap-4 mb-6">
             {cards.map((card,idx)=>(
                 <div key={idx}
-                    className="bg-white shadow rounded-xl p-4 border border-gray-200">
-                        <p className="text-sm text-gray-500">{card.title}</p>
-                        <h2 className="text-2xl font-bold">{card.value}</h2>
+                    className="bg-white rounded-xl p-4 border border-gray-200">
+                        <p className="text-sm font-bold ">{card.title}</p>
+                        <h2 className="text-xl font-bold mt-8">{card.value}</h2>
                         <p className={`${card.changeColor} text-sm`}>{card.change}</p>
                     </div>
             ))}
