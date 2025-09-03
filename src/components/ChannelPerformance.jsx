@@ -28,7 +28,7 @@ function ChannelPerformance() {
 
     return (
        <div className="bg-white border border-gray-200 rounded-2xl p-4">
-        <h3 className="text-lg font-bold mb-4">Channel Performance</h3>
+        <h3 className="text-sm mb-4">Channel Performance</h3>
         <div className="space-y-4">
             {channels.map((ch,idx)=>(
                 <div key={idx} className="flex items-center justify-between text-gray-700">

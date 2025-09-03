@@ -28,7 +28,7 @@ function RecentActivity() {
 
     return (
        <div className="bg-white border border-gray-200 rounded-2xl p-4">
-        <h3 className="text-lg font-bold mb-4 ml-4 flex justify-between items-center">
+        <h3 className="text-sm mb-4 ml flex justify-between items-center">
             <span>Recent Activity</span>
             <a href="#" className="text-black-600 text-sm over:underline gap-1 ml-80">
                 View All 
